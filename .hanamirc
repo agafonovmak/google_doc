@@ -1,0 +1,3 @@
+project=google_doc
+test=rspec
+template=erb

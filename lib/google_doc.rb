@@ -1,0 +1,2 @@
+module GoogleDoc
+end
