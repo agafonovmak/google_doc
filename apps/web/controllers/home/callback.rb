@@ -10,7 +10,7 @@ module Web::Controllers::Home
       auth_client = client_secrets.to_authorization
       auth_client.update!(
         :scope => 'https://www.googleapis.com/auth/drive',
-        :redirect_uri => 'https://fathomless-taiga-36544.herokuapp.com/',
+        :redirect_uri => 'https://fathomless-taiga-36544.herokuapp.com',
         :additional_parameters => {
           "access_type" => "offline",         # offline access
           "include_granted_scopes" => "true"  # incremental auth
