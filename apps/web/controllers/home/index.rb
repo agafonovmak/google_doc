@@ -4,7 +4,6 @@ require 'google/api_client/client_secrets'
 module Web::Controllers::Home
   class Index
     include Web::Action
-    include GoogleDrive
 
     expose :auth_uri
 
